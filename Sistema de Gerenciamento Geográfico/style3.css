@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: rgba(217, 217, 217, 1);
+
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.formulario {
+    background-color:  rgba(217, 217, 217, 1);
+    ;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.botoes {
+   
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.azul {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.vermelho {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.branco {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    background-color: #fff;
+    color: rgba(4, 201, 244, 1);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+h1{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+height: 42px;
+color: #fff;
+    text-align: center;
+    background-color: #04c9f4;
+}
+#estado{
+    
+background-color: #04c9f4;
+}
+#pais{
+    background-color: #04c9f4;
+}
+#cidade{
+    background-color: #04c9f4; 
+}
+#usuario{
+    background-color: #04c9f4;
+
+}
+.linha{
+    display: flex;
+    
+}
+#campod{
+    width: 73px;
+height: 53px;
+top: 130px;
+left: 206px;
+gap: 0px;
+opacity: 0px;
+
+}
+#campod2{
+    width: 363px;
+height: 53px;
+top: 130px;
+left: 279px;
+gap: 0px;
+opacity: 0px;
+
+}
+
